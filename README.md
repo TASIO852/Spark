@@ -1,5 +1,3 @@
-<img  width=600 height=230 src="../../Images/Spark/Apache%20Spark%20logo.png" ></img>
-
 # **O que é o Apache Spark?**
 
 O Apache Spark é um mecanismo de análise unificado para processamento de dados em grande escala com módulos integrados para SQL, streaming, machine learning e processamento de gráficos. O Spark pode ser executado no Apache Hadoop, Apache Mesos, Kubernetes, por conta própria, na nuvem e em diversas fontes de dados.
@@ -32,7 +30,7 @@ Outra vantagem é que algoritmos iterativos de machine learning são facilmente 
 
 A Arquitetura principal da ferramenta e essa que podemos ver abaixo e existe mais 3 versoes que se adapta em cada caso para uma finalidade a local, client e cluster cada uma para fazer uma coisa.
 
-![Arquitetura Princiapal](../../Images/Spark/Cluster.jpg)
+![Arquitetura Princiapal](Images/Arquitetura.jpg)
 
 # **Como instalar ?**
 
@@ -62,7 +60,7 @@ Vamos seguir como exemplo esse dois arquivos que e onde baixaremos a imagem e ou
 
 # **Quais sao suas dependencias ?**
 
-![Dependencias](../../Images/Spark/Libs%20do%20spark.png)
+![Dependencias](Images/Libs%20do%20spark.png)
 
 ## **Módulos Spark**
 
@@ -94,18 +92,6 @@ Tudo vai depender do desenvolvedor para poder trabalha com esses módulos.Abaixo
 
 - Os Workers, que são as máquinas que realmente executarão as tarefas que são enviadas pelo Driver Program. Se o Spark for executado de forma local, a máquina desempenhará tanto o papel de Driver Program como de Worker.
 
-# **Como usa o Spark ?**
-
-Tem vários modos de usar o spark isso fica a critério do desenvolvedor mas as duas formas mais recomendados sao pelo pyspark e pelo spark SQL
-
-# **Uso do Python ?**
-
-O uso do Python no spark possui diversas ultilidades.
-
-- ETL
-- ELT
-- ML
-
 ## **Pyspark**
 
 Para uso geral das atividades com a ferramenta e recomendado usar o pyspark para fazer transformaçoes em geral
@@ -113,22 +99,6 @@ Para uso geral das atividades com a ferramenta e recomendado usar o pyspark para
 [pyspark](https://realpython.com/pyspark-intro/)
 
 [Spark](https://www.youtube.com/watch?v=ofPDOmMKRis)
-
-# **Como se encaixa em todo o processo ?**
-
-O spark se encaixa na etapa de transformações e tratamento de dados sendo uma das partes cruciais para todo o desenvolvimento das aplicações e da analises.
-
-> **Onde vai para cada fluxo de dados da ferramenta ?**
-
-Depende da finalidade da analise que foi pedida para o analista
-
-> **De qual processo ela faz parte ?**
-
-To processo de transformaçoes e tratamento de dados
-
-> **Como dar deploy da aplicação ?**
-
-O deploy do spark no tableau vai ser dados pelo SPARK SQL para as analises
 
 [Tableau](https://help.tableau.com/current/pro/desktop/pt-br/examples_sparksql.htm)
 
